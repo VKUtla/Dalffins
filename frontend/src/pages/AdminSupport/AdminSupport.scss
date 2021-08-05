@@ -1,0 +1,21 @@
+//Author: Jay Patel (B00881906)
+.admin-support-container {
+  min-height: 85vh;
+  padding: 1.5rem;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      padding: 12px;
+      margin: 4px;
+
+      .desc {
+        color: grey;
+      }
+    }
+  }
+}

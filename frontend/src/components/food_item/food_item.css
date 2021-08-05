@@ -1,0 +1,21 @@
+/* Author - Akshay Garg */
+
+.img-height {
+  height: 100%;
+}
+
+.food-item-center-align {
+  margin: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.display-inline > * {
+  display: inline;
+}

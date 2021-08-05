@@ -1,0 +1,39 @@
+//Author: Jay Patel (B00881906)
+.ticket-detail-modal {
+  .status {
+    color: grey;
+    font-size: 15px;
+  }
+
+  .message-list {
+    overflow: auto;
+    max-height: 250px;
+    padding-bottom: 1rem;
+
+    .slide {
+      border-bottom: 1px solid #eaeaea;
+      padding: 8px;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+
+      .author {
+        font-weight: 600;
+      }
+
+      .date {
+        color: grey;
+        font-size: 13px;
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  form {
+    label {
+      font-weight: 600;
+    }
+  }
+}
